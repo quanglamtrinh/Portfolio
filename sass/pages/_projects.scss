@@ -1,0 +1,87 @@
+.projects{
+    height: 100vh;
+    position: relative;
+    z-index: 100;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+  
+    &__container{
+      flex: 1 1 auto;
+      display: flex;
+      align-items: center;
+      height: 100%;
+      margin: 0 auto;
+      justify-content: center;
+    }
+  
+    &__box{
+      width: 80vw;
+      display: flex;
+      justify-content: space-around;
+      position: relative;
+      flex-wrap: wrap;
+      z-index: 100;
+    }
+  }
+  
+  .project{
+    margin: 0rem auto 4rem;
+    width: 45%;
+    height: 22rem;
+    background-color: #f7f7f7;
+    text-align: center;
+    box-shadow: 1.5rem 1.5rem 0 0 #404040;
+    // box-shadow: 10px 10px 0 0 #2a0f3f;
+    border: 2px solid #404040; 
+    padding: 2rem;
+    position: relative;
+    
+    &__skills{
+  
+      
+      &-list{
+  
+        display: none;
+        font-family: azeret mono;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        list-style: none;
+        border: 3px solid $text-color;
+  
+        & > li{
+          width: 25%;
+          & > span{
+              font-size: 1.4rem;
+              text-transform: uppercase;
+          }
+        }
+      }
+    }
+    &__image{
+      width: 100%;
+      height: 88%;
+      & > img{
+        max-height: 100%;
+      }
+    }
+    &__content{
+      display: none;
+    }
+    &__title{
+      display: inline-block;
+      color: #404040;
+      font-family: mosk;
+      font-size: 3rem;
+      font-weight: 900;
+      padding: 0 2rem;
+    }
+    &:hover{
+      // border-bottom: 4px solid #404040;
+      background-color: #fef8b4;
+    }
+    &:hover &__title{
+        background-image: linear-gradient(transparent 50%,#f2c3c0 50%,#f2c3c0 85%,transparent 85%,transparent 100%);
+    }
+  }

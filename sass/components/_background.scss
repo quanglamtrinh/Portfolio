@@ -1,0 +1,208 @@
+.blueplanet{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 37.78%;
+  
+    & > img{
+      width: 100%;
+    }
+  }
+  .lightblueplanet{
+    position: absolute;
+    top: 0%;
+    right: 0;
+    width: 29.94%;
+  
+    & > img{
+      width: 100%;
+    }
+  }
+  .orangeplanet{
+    position: absolute;
+    top: 45%;
+    right: 40%;
+    width: 16.47%;
+  
+    & > img{
+      width: 100%;
+    }
+  }
+  .redplanet{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 50.81%;
+  
+    & > img{
+      width: 100%;
+    }
+  }
+  .space{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -10;
+  }
+  .lightenspace{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -20;
+  }
+  .longstars{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -5;
+  
+    & > img{
+      position: absolute;
+      right: 5%;
+    }
+  }
+  .stars{
+    display: none;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -5;
+    
+  }
+  .redsmallplanet{
+    position: absolute;
+    top: 0%;
+    left: 45%;
+    width: 20.42%;
+    
+    & > img{
+      width: 100%;
+    }
+  }
+  .coconut{
+    position: absolute;
+    bottom: -2%;
+    left: 0;
+    width: 100%;
+  
+    & > img{
+      width: 100%;
+    }
+  }
+  .bigballoon{
+    width: 19.03%;
+    position: absolute;
+    top: 5%;
+    left: 5%;
+  
+    & > img{
+      width: 100%
+    }
+  }
+  .smallballoon{
+    position: absolute;
+    top: 10%;
+    right: 0;
+    width: 13.18%;
+  
+    & > img{
+      width: 100%
+    }
+  }
+  
+  
+  .mountain{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+  }
+  .mountains{
+    & > img{
+      width: 100%;
+    }
+  }
+  .mountainshadow{
+    & > img{
+      width: 100%;
+    }
+  }
+  
+  .boatscene{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+  }
+  .boat{
+    text-align: right;
+    position: relative;
+    z-index: 10;
+  }
+  .boatshadow{
+    text-align: right;
+    position: relative;
+    top: -5%;
+  }
+  
+  .birds{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 18.23%;
+  
+    & > img{
+      width: 100%;
+    }
+  }
+  .birds1{
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    width: 18.23%;
+  
+    & > img{
+      width: 100%;
+    }
+  }
+  .moonlight{
+    position: absolute;
+    top: 8%;
+    right: 8%;
+    width: 9.08;
+  
+    & > img{
+      width: 100%;
+    }
+  }
+  .landscape{
+    position: absolute;
+    bottom: 0%;
+    left: 0;
+    width: 100%;
+    z-index: 10;
+  
+    & > img{
+      width: 100%;
+    }
+  }
+  .seamountain{
+    position: absolute;
+    bottom: -5%;
+    left: 0;
+    width: 100%;
+  }
+  
+  .icemountain{
+    & > img{
+      width: 100%;
+    }
+  }
+  
+  .sea{
+    & > img{
+      width: 100%;
+    }
+  }

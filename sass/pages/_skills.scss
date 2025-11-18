@@ -1,0 +1,72 @@
+.skills{
+    height: 100vh;
+    position: relative;
+    z-index: 100;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+  
+    &__container{
+      flex: 1 1 auto;
+      display: flex;
+      align-items: center;
+      height: 100%;
+      margin: 0 auto;
+      justify-content: center;
+    }
+  
+    &__box{
+      width: 80vw;
+      display: flex;
+      justify-content: space-around;
+      position: relative;
+      z-index: 100;
+      flex-wrap: wrap;
+    }
+  }
+  
+  .skill{
+  
+    margin: 2rem auto;
+    width: 28%;
+    height: 22rem;
+    background-color: #f7f7f7;
+    text-align: center;
+    // box-shadow: 1.5rem 1.5rem 0 0 #404040;
+    box-shadow: 10px 10px 0 0 #404040;
+    border: 2px solid #404040; 
+    padding: 2rem;
+    position: relative;
+  
+    &__icon{
+  
+   
+      & > img{
+        width: 20%;
+      }
+    }
+  
+    &__title{
+      display: inline-block;
+      color: #404040;
+      font-family: mosk;
+      font-size: 3rem;
+      font-weight: 900;
+      padding: 0 2rem;
+    }
+  
+    &__content{
+      padding-top: 1rem;
+      color: #404040;
+      font-family: montserrat;
+      font-size: 1.4rem;
+      text-align: center;
+    }
+  
+    &:hover{
+      background-color: #fef8b4;
+    }
+    &:hover &__title{
+        background-image: linear-gradient(transparent 50%,#f2c3c0 50%,#f2c3c0 85%,transparent 85%,transparent 100%);
+    }
+  }

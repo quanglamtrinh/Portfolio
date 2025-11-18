@@ -1,0 +1,202 @@
+@media (max-width: 576px){
+    #fp-nav{
+        display: none;
+    }
+    .navbar__logo{
+        display: none;
+    }
+    .navbar1__logo{
+        display: none;
+    }
+    .navbar2__logo{
+        display: none;
+    }
+    .navbar3__logo{
+        display: none;
+    }
+    .navbar__menu{
+        width: 100%;
+
+        &--wrap {
+            margin: unset;
+            justify-content: center;
+
+            & > a{
+                margin:unset;
+                padding: 1rem 0;
+                font-size: 1.4rem;
+                width: 22%;
+            }
+        }
+    }
+    .navbar1__menu{
+        width: 100%;
+
+        &--wrap {
+            margin: unset;
+            justify-content: center;
+
+            & > a{
+                margin:unset;
+                padding: 1rem 0;
+                font-size: 1.4rem;
+                width: 22%;
+            }
+        }
+    }
+    .navbar2__menu{
+        width: 100%;
+
+        &--wrap {
+            margin: unset;
+            justify-content: center;
+
+            & > a{
+                margin:unset;
+                padding: 1rem 0;
+                font-size: 1.4rem;
+                width: 22%;
+            }
+        }
+    }
+    .navbar3__menu{
+        width: 100%;
+
+        &--wrap {
+            margin: unset;
+            justify-content: center;
+
+            & > a{
+                margin:unset;
+                padding: 1rem 0;
+                font-size: 1.4rem;
+                width: 22%;
+            }
+        }
+    }
+    .intro__title{
+        padding: 0 4rem;
+    }
+
+    .intro__container{
+        flex: 0.6 1 auto;
+    }
+
+    .intro__title--intro{
+        text-align: center;
+        margin-bottom: 6.5rem;
+    }
+
+    .intro__title--about{
+        margin-bottom: 10.5rem;
+        text-align: center;
+    }
+
+    .intro__title--button{
+        text-align: center;
+    }
+    .arrow{
+        display: none;
+    }
+    .hoverbutton::before {
+        top: 0.8rem;
+        left: 0.8rem;
+        background-color: transparent;
+        border: 3px solid #333;
+        height: 100%;
+        width: 100%;
+        animation: none;
+        border-radius: unset;
+    }
+    .hoverbutton > span {
+        color: white;
+        font-size: 2.8rem;
+        position: relative;
+        z-index: 20;
+        top: 0;
+        left: 0;
+    }
+    .hoverbutton::after {
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        background-color: #333;
+        animation: none;
+        border-radius: unset;
+    }   
+
+
+
+    .infobox__content > h2{
+        font-size: 2.8rem;
+    }
+    .infobox__content > p{
+        font-size: 1.4rem;
+    }
+    .infobox__ava {
+        width: 12rem;
+        height: 12rem;
+        top: -4rem;
+        right: -4rem
+    }
+    .infobox{
+        max-width: 80vw;
+    }
+    .coconut{
+        bottom: 0;
+    }
+    .link__skills {
+        width: 15rem;
+        height: 15rem;
+        bottom: -2rem;
+    }
+    .bigballoon {
+        width: 26.03%;
+        top: 10%;
+    }
+    .infobox__svg{
+        display: none;
+    }
+
+    .skill{
+        padding: 1rem;
+        width: 40%;
+        height: 14rem;
+        box-shadow: 0.7rem 0.7rem 0 0 #404040;
+        border-radius: 1rem;
+    }
+    .skill__title{
+        font-size: 2rem;
+    }
+    .skill__content{
+        font-size: 1rem;
+    }
+    .skills__box{
+        width: 90%;
+    }
+
+    .u-margin-right-sm{
+        margin-right: 0;
+    }
+    .u-margin-left-sm{
+        margin-left: 0;
+    }
+    .project__title{
+        font-size: 1.6rem;
+    }
+
+    .project{
+        width: 70%;
+        height: 10rem;
+        margin-bottom: 3rem;
+        box-shadow: 0.7rem 0.7rem 0 0 #404040;
+    }
+    .svg-2 textPath[data-v-4df41337] {
+        font-size: 30px;
+    }
+
+    .hoverbutton > span{
+        font-size: 2rem;
+    }
+}

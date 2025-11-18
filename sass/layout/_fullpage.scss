@@ -1,0 +1,36 @@
+// .col-1 {
+//   flex: 0 0 auto;
+//   width: 8.33333333%; }
+
+// .col-10 {
+//   flex: 0 0 auto;
+//   width: 83.3333333%; }
+
+// .col-4 {
+//   flex: 0 0 auto;
+//   width: 33.3333333%; }
+
+// .col-6 {
+//   flex: 0 0 auto;
+//   width: 50%; }
+
+// .col-8 {
+//   flex: 0 0 auto;
+//   width: 66.6666667%; }
+
+//   .s1{
+//     display: none;
+//   }
+
+
+#fp-nav ul li a.active span{
+    background: $text-color !important;
+}
+#fp-nav ul li a span{
+    background: $text-color !important;
+}
+#fp-nav ul li .fp-tooltip {
+  color: $text-color !important;
+  font-family: muli;
+  font-weight: 700;
+}

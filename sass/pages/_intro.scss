@@ -1,0 +1,126 @@
+.arrow{
+    display: inline-block;
+    transition: all 0.4s cubic-bezier(0.445, 0.05, 0.55, 0.95);
+    position: relative;
+  }
+   #video--arrow{
+     margin-left: 1.5rem;
+   }
+  
+   .intro__container{
+    flex: 1 1 auto;
+   }
+   .intro{
+      height: 100vh;
+      font-family: mosk;
+      position: relative;
+      z-index: 100;
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+  
+      &__content{
+        display: flex;
+        height: 100%;
+        align-items: center;
+        position: relative;
+        z-index: 200;
+      }
+  
+      &__hello{
+        display:inline-block;
+        width: 40vw;
+        position:relative;
+  
+        & > img{
+          max-width: 100%;
+          position: absolute;
+          bottom: -5rem;
+        }
+      }
+  
+      &__title{
+        padding-left: 6rem;
+        display: inline-block;
+  
+        &--intro{
+  
+          margin-bottom: 3.5rem;
+  
+          & .intro--hi{
+  
+            font-size: 3.8rem;
+            line-height: 4.4rem;
+            font-weight: 700;
+            color: $text-color;
+            margin-right: 1rem;
+            position: relative;
+            margin-right: 5px;
+          }
+  
+          & > .text--highlight{
+            display: inline-block;
+            position: relative;
+  
+            & > .space--white{
+              position: absolute;
+              left: 4%;
+              right: 0%;
+              top: 50%;
+              height: 36%;
+              background-color: white;
+            }
+          }
+        }
+  
+        &--about{
+  
+          margin-bottom: 3.5rem;
+          overflow: hidden;
+  
+          & > p{
+            font-weight: 400;
+            font-size: 1.5rem;
+            color: $text-color;
+          }
+        }
+      }
+      
+      &__scroll{
+        position: fixed;
+        bottom: -1.5rem;
+        right: 5rem;
+        width: 5rem;
+        height: 10rem;
+        display: inline-block;
+  
+        &-text{
+          position: absolute;
+          transform: rotate(90deg);
+          top: 2rem;
+          font-size: 1.4rem;
+          font-weight: 700;
+          font-family: muli;
+        }
+  
+        &-line{
+          position: absolute;
+          bottom: 0;
+          background-color: black;
+          width: 2px;
+          height: 10rem;
+  
+          animation: scrollDown 2s ease-in-out 4s infinite;
+          overflow: hidden;
+          text-overflow: ellipsis;
+          white-space: nowrap;
+        }
+      }
+   }
+
+   .space--white-1{
+    animation: whiteLine 1s ease-in-out 2s backwards;
+  }
+  .space--white-2{
+    animation: whiteLine 1s ease-in-out 3s backwards;
+  }

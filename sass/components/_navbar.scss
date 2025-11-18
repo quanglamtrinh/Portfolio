@@ -1,0 +1,58 @@
+.navbar{
+    display: flex;
+    height: 6.5rem;
+    z-index: 100;
+      position: relative;
+  // animation: moveUp 1s ease-in-out backwards;
+  
+  &__logo{
+    flex: 0 0 auto;
+    width: 33.33%;
+  }
+
+    &__menu{
+      padding-top: 2rem;
+      width: 66.67%;
+      flex: 0 0 auto;
+  
+      &--wrap{
+        margin-right: 1rem;
+        display: flex;
+        justify-content: flex-end;
+  
+        & > a{
+          width: 9rem;
+          // line-height: 2rem;
+          // height: 2.6rem;
+          text-decoration: none;
+          text-align: center;
+          font-size: 1.8rem;
+          font-family: muli;
+          color: black;
+          font-weight: 700;
+          margin:  0 2rem;
+          padding: 1.6rem 1rem;
+          // box-shadow: inset 0 -1rem 0 -1px white;
+          transition: all 0.25s ease;
+          // display: flex;
+          // align-items: end;
+  
+          &:hover{
+            // box-shadow: inset 0 -2rem 0 1rem white;
+            background-image: url(imgtracker/hover.png);
+            background-position: center;
+            background-size: contain;
+            background-repeat: no-repeat ;
+          }
+        }
+      }  
+    }
+  }
+
+  .clicked{
+    background-image: url(imgtracker/clicked.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat ;
+    pointer-events: none;
+  }

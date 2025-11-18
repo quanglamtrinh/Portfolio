@@ -1,0 +1,63 @@
+@keyframes infiniteRotate{
+    100%{
+      transform: rotate(1turn)
+    }
+  }
+
+  @keyframes whiteLine{
+    from{
+      transform: scaleX(0);
+      transform-origin: 0 0;
+    }
+    to{
+      transform: scaleX(1);
+    }
+  }
+
+  @keyframes scrollDown{
+    0%{
+      // transform: translate3d(0,0,0);
+      transform: scaleY(0);
+      transform-origin: top;
+    }
+    50%{
+      transform-origin: top;
+      transform: scaleY(1);
+    }
+    51%{
+      transform-origin: bottom;
+      transform: scaleY(1);
+    }
+    100%{
+      transform: scaleY(0);
+      transform-origin: bottom;
+    }
+  }
+  
+  @keyframes scrolldown {
+      0%{
+          background-position: 0 -6rem;
+      }
+      75% {
+          background-position: 0 0;
+      }
+      100%{
+          background-position: 0 6rem;
+      }
+  }
+  @keyframes topAnimation {
+	from {
+		transform: translate(0rem, 0);
+	}
+	to {
+		transform: translate(0rem, 3.5rem);
+	}
+}
+@keyframes bottomAnimation {
+	from {
+		transform: translate(-11.5rem, 0);
+	}
+	to {
+		transform: translate(0rem, 0);
+	}
+}
